@@ -13,5 +13,5 @@ GitHub repository: https://github.com/aditya-2703/aditya-2703.github.io
 Please share your feedback below! ✨
 
 <p align="center">
-<img src="poster.jpeg">
+<img src="poster.png">
 </p>
