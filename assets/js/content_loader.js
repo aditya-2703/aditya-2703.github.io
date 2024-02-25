@@ -6,7 +6,7 @@ var certificates_data = [
         link:"Crash Course on python From Google.",
         tag:"python",
         modal_title:"Python From Google Coursera.",
-        modal_para : "Completed this 28-hours long course on basics of python which covered all the beginner level concepts of python language. Course was followed by an assessment, providing certificate to qualifying ones.",
+        modal_para : "Successfully completed a 28-hour introductory Python course covering fundamental concepts of the language. The course included comprehensive instruction and culminated in an assessment, leading to certification for qualifying participants.",
         modal_img:"/assets/images/certificates/certi_1.jpg"
     },
     {
@@ -15,7 +15,7 @@ var certificates_data = [
         link:"Completing Workshop on Dsa From Gfg.",
         tag:"gfg",
         modal_title:"Dsa Workshop From GeeksforGeeks",
-        modal_para : "Completed this 11-weeks long workshop on basics of data-structures and algorithms with it's implementation which covered all the basic concepts of dsa and approaches to solve related problems. Workshop was followed by an assessment, providing certificate to qualifying ones.",
+        modal_para : "Successfully completed an 11-week workshop covering the fundamentals of data structures and algorithms, including their implementation. The workshop comprehensively addressed essential concepts and problem-solving approaches in DSA. A formal assessment followed the workshop, leading to certification for qualifying participants.",
         modal_img:"/assets/images/certificates/certi_2.jpg"
     },
     {
@@ -24,7 +24,7 @@ var certificates_data = [
         link:"Certified in Problem Solving From Hackerrank.",
         tag:"ps",
         modal_title:"Problem Solving From Hackerrank",
-        modal_para : "Certified in Problem Solving skills by Hackerrank on clearing 2-hours long exam which consisted of solving 3-4 algorithmic problems.",
+        modal_para : "Achieved certification in Problem-Solving Skills from Hackerrank by successfully completing a rigorous 2-hour examination comprising the resolution of 3-4 algorithmic problems.",
         modal_img:"/assets/images/certificates/certi_3.png"
     },
     {
@@ -33,7 +33,7 @@ var certificates_data = [
         link:"Certified in NDG Linux os From Cisco.",
         tag:"cisco",
         modal_title:"NDG Linux Certified From Cisco",
-        modal_para : "Completed this 8-hours long course on basics-of- linux with it's implementation which covered all the basic concepts of linux operating system. Course was followed by an assessment, providing certificate to qualifying ones. ",
+        modal_para : "Successfully completed an 8-hour course on Linux fundamentals, including practical implementation, covering all basic concepts of the Linux operating system. The course concluded with an assessment and issuance of certificates to qualifying participants.",
         modal_img:"/assets/images/certificates/certi_4.jpg"
 
     },
@@ -43,7 +43,7 @@ var certificates_data = [
         link:"Python 101 for Data-Science From Ibm.",
         tag:"ibm",
         modal_title:"Data-Science in python From Ibm Cognitive Classes",
-        modal_para : "Completed this 5-module course on basics of data-science with it's implementation which covered all the basic concepts of data-science and modules like numpy and pandas. Workshop was followed by an assessment, which I cleared with 95% grade.",
+        modal_para : "Successfully completed a comprehensive 5-module course on the fundamentals of data science, encompassing essential concepts and practical implementation. The curriculum included modules on key libraries such as NumPy and Pandas. Following the workshop, I successfully passed the assessment with a commendable grade of 95%.",
         modal_img:"/assets/images/certificates/certi_5.jpg"
     },
     {
@@ -52,7 +52,7 @@ var certificates_data = [
         link:"Certified in Java Language From Hackerrank",
         tag:"java_hackerrank",
         modal_title:"Certified in Java From Hackerrank",
-        modal_para : "Certified in Java by Hackerrank on clearing 2-hours long exam which consisted of solving 3-4 algorithmic  and language based problems.",
+        modal_para : "Received Java certification from Hackerrank after successfully completing a rigorous 2-hour examination comprising algorithmic and language-based problem-solving tasks.",
         modal_img:"/assets/images/certificates/certi_6.png"
     },
     {
@@ -61,7 +61,7 @@ var certificates_data = [
         link:"Certified in Front-end Fundamentals From Pirple.",
         tag:"pirple",
         modal_title:"Certified in Front-end Fundamentals From Pirple.",
-        modal_para : "Completed  this 9-module course on basics of Front-end with Designing websites which covered all the basic concepts of front-end based on HTML and CSS. Course was followed by an assessment, providing certificate to qualifying ones.",
+        modal_para : "Successfully completed a comprehensive 9-module course on the fundamentals of Front-end Development and Website Design. The course extensively covered essential concepts in HTML and CSS, providing a solid foundation in front-end development. Assessment was conducted post-course, awarding certificates to qualified participants.",
         modal_img:"/assets/images/certificates/certi_7.jpg"
     },
     {
@@ -70,7 +70,7 @@ var certificates_data = [
         link:"Certified in Responsive Web-Designs From Freecodecamp.",
         tag:"freecodecamp",
         modal_title:"Responsive Design From Freecodecamp",
-        modal_para : "Completed this 300-hours long course on basics of HTML and CSS  along with Responsiveness design which covered all the basic concepts related to responsive design. Course was followed by an assessment, providing certificate to qualifying ones.",
+        modal_para : "Successfully completed a 300-hour course covering the fundamentals of HTML and CSS, including Responsive Design principles. This comprehensive program delved into essential concepts related to responsive design. Upon completion, underwent assessment leading to certification for qualifying candidates.",
         modal_img:"/assets/images/certificates/certi_8.png"
     },
     {
@@ -79,7 +79,7 @@ var certificates_data = [
         link:"Certified in Foundations of Database Sql by Oracle.",
         tag:"oracle",
         modal_title:"Basics of Sql From Oracle Dev Gym. ",
-        modal_para : "Completed this 12+ modules course on basics of SQL with it's implementation which course covered all the basic concepts of SQL and related problem solving. Course was followed by an assessment, providing certificate to qualifying ones.",
+        modal_para : "Successfully completed a comprehensive 12+ module course covering the fundamentals of SQL, including practical implementation and problem-solving. This rigorous program encompassed all essential SQL concepts and culminated in a thorough assessment, leading to certification for qualifying participants.",
         modal_img:"/assets/images/certificates/certi_9.jpg"
 
     }
@@ -124,8 +124,7 @@ function load_certificates(){
                         </div>
                     </div>
                     <h4 class="title"><a href="javascript:void(0)">
-                        ${data.link}
-                            <i data-feather="arrow-up-right"></i></a></h4>
+                        ${data.link}</a></h4>
                 </div>
             </div>
         </div>
@@ -141,6 +140,21 @@ load_certificates()
 
 // --------------------------  start project - loader
 
+
+
+// {
+//     domain:"Web-site",
+//     mode:"Website",
+//     heading:"Full stack website to digitalize hospital management system.",
+//     image:"/assets/images/portfolio/web_2.png",
+//     tag:["web"],
+//     name:"HOSPITAL MANAGEMENT SYSTEM",
+//     intro:"Hospital Management System is full-stack website build to digitalize the hospital system. This website consists of services related to hospital system which like taking appointment, selecting doctors, register appointment, among many others. You can also enrol for courses to learn about medical related topics. Apart from that you will also be updated with the latest news and events. Database is also maintained in this website.",
+//     tech_stack:["HTML","CSS","BOOTSTRAP","JAVASCRIPT","PYTHON","DJANGO","SQLLITE"],
+//     glink:"https://github.com/aditya-2703/WEB_DEV_PROJECTS/tree/main/FULL%20STACK%20WEBSITE/HOSPITAL_MANAGEMENT_SYSTEM",
+//     modal_img:"/assets/images/portfolio/web_2_poster.gif"
+// },
+
 var projects_data = [
     {
         domain:"Web-app",
@@ -153,18 +167,6 @@ var projects_data = [
         tech_stack:["HTML","CSS","JAVASCRIPT"],
         glink:"https://www.dsa-hub.ml/",
         modal_img:"/assets/images/portfolio/web_1_poster.png"
-    },
-    {
-        domain:"Web-site",
-        mode:"Website",
-        heading:"Full stack website to digitalize hospital management system.",
-        image:"/assets/images/portfolio/web_2.png",
-        tag:["web"],
-        name:"HOSPITAL MANAGEMENT SYSTEM",
-        intro:"Hospital Management System is full-stack website build to digitalize the hospital system. This website consists of services related to hospital system which like taking appointment, selecting doctors, register appointment, among many others. You can also enrol for courses to learn about medical related topics. Apart from that you will also be updated with the latest news and events. Database is also maintained in this website.",
-        tech_stack:["HTML","CSS","BOOTSTRAP","JAVASCRIPT","PYTHON","DJANGO","SQLLITE"],
-        glink:"https://github.com/aditya-2703/WEB_DEV_PROJECTS/tree/main/FULL%20STACK%20WEBSITE/HOSPITAL_MANAGEMENT_SYSTEM",
-        modal_img:"/assets/images/portfolio/web_2_poster.gif"
     },
     {
         domain:"Web-site",
@@ -409,8 +411,7 @@ function load_all_projects(){
                                             <span><a href="javascript:void(0)"><i class="feather-heart"></i></a>${data.mode}</span>
                                         </div>
                                     </div>
-                                    <h4 class="title"><a href="javascript:void(0)">${data.heading}<img
-                                        src="/assets/images/arrow-up-right.svg" class="feather-arrow-up-right"></a></h4>
+                                    <h4 class="title"><a href="javascript:void(0)">${data.heading}</a></h4>
                                 </div>
                             </div>
                         </div>
@@ -474,8 +475,7 @@ function load_project(goal_tag){
                             <span>${data.mode}</span>
                         </div>
                     </div>
-                    <h4 class="title"><a href="javascript:void(0)">${data.heading}<img
-                        src="/assets/images/arrow-up-right.svg" class="feather-arrow-up-right"></a></h4>
+                    <h4 class="title"><a href="javascript:void(0)">${data.heading}</a></h4>
                 </div>
             </div>
         </div>

@@ -40,11 +40,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 :root {
-  --color-primary: #ff014f;
+  --color-primary: #905E44;
   --color-secondary: #f4f5f6;
-  --color-tertiary: #0d1013;
+  --color-tertiary: #130d0d;
   --color-gray: #f6f6f6;
-  --color-subtitle: #f9004d;
+  --color-subtitle: #6F8FAF;
   /* --background-color-1: linear-gradient(145deg, #1e2024, #23272b); */
   --background-color-1: #f4f5f6;
   
@@ -62,7 +62,7 @@
   --inner-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
   --shadow-white-3: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
   --gradient-box-w: linear-gradient(145deg, #e2e8ec, #ffffff);
-  --gradient-red-hover: linear-gradient(145deg, #ff014f, #d11414);
+  --gradient-red-hover: linear-gradient(145deg, #905f44c8, rgb(69, 54, 54));
   --color-heading: #ffffff;
   --color-heading-wv: #1e2125;
   --color-body: #878e99;
@@ -12556,7 +12556,7 @@ figcaption {
   left: 0;
   right: 0;
   margin: 0 auto;
-}
+}c
 
 @media only screen and (max-width: 479px) {
   .section-flex {
@@ -12566,7 +12566,7 @@ figcaption {
 }
 
 .section-title span.subtitle {
-  color: #ff014f;
+  color: var(--color-primary);
   text-transform: uppercase;
   letter-spacing: 5px;
   font-size: 14px;
@@ -12733,7 +12733,7 @@ figcaption {
   }
 }
 .slide .content .inner .title span {
-  color: #ff014f;
+  color: var(--color-primary);
 }
 .slide .content .inner .title .header-caption span {
   color: var(--color-white);
@@ -13358,7 +13358,7 @@ figcaption {
   }
 }
 .banner-details-wrapper-sticky .banner-title-area .title span {
-  color: #ff014f;
+  color: var(--color-primary);
 }
 @media only screen and (max-width: 575px) {
   .banner-details-wrapper-sticky .banner-title-area .title span {
@@ -14448,7 +14448,7 @@ div#featured-project-carousel {
   }
 }
 .rn-nav-list .nav-item .nav-link:hover, .rn-nav-list .nav-item .nav-link.active {
-  color: #ff014f;
+  color: var(--color-primary);
   background-color: transparent;
   border-color: transparent;
   border: 0 none;
@@ -19106,7 +19106,7 @@ body.white-version .popup-mobile-menu .primary-menu .has-droupdown .submenu {
   box-shadow: var(--shadow-white-3);
 }
 .white-version .rn-resume-area .personal-experience-inner .experience-list .resume-single-list:hover .heading {
-  border-bottom: 1px solid rgb(206, 110, 110);
+  border-bottom: 1px solid black;
 }
 .white-version .rn-resume-area .personal-experience-inner .experience-list .resume-single-list:hover .heading .title h4 {
   color: var(--color-white);
@@ -19116,7 +19116,7 @@ body.white-version .popup-mobile-menu .primary-menu .has-droupdown .submenu {
 }
 .white-version .rn-resume-area .personal-experience-inner .experience-list .resume-single-list:hover .heading .date-of-time span {
   box-shadow: none;
-  background: #fe024e;
+  background: var(--color-primary);
   color: var(--color-white);
 }
 .white-version .rn-resume-area .personal-experience-inner .experience-list .resume-single-list:hover .inner::after {
