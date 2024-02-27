@@ -163,7 +163,7 @@ var projects_data = [
         image:"/assets/images/portfolio/web_1.png",
         tag:["web"],
         name:"DSA-HUB",
-        intro:"Dsa-Hub is all about how you can use different data-structures and algorithms to solve real-life problems. With this idea and concept, I have developed games and projects based on specific data-structures and algorithms. ",
+        intro:"DSA-HUB is all about how you can use different data-structures and algorithms to solve real-life problems. With this idea and concept, I have developed games and projects based on specific data-structures and algorithms. ",
         tech_stack:["HTML","CSS","JAVASCRIPT"],
         glink:"https://github.com/aditya-2703/DSA-HUB",
         modal_img:"/assets/images/portfolio/web_1_poster.png"
