@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <!-- Modern gradient background -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a2980" />
+      <stop offset="100%" stop-color="#26d0ce" />
+    </linearGradient>
+    <linearGradient id="cardGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.05" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Background with gradient -->
+  <rect width="800" height="450" fill="url(#bgGradient)" rx="15" ry="15" />
+  
+  <!-- Abstract code pattern in background -->
+  <g opacity="0.07">
+    <text x="60" y="60" font-family="monospace" font-size="14" fill="white">import org.springframework.boot.SpringApplication;</text>
+    <text x="60" y="80" font-family="monospace" font-size="14" fill="white">import org.springframework.boot.autoconfigure.SpringBootApplication;</text>
+    <text x="60" y="100" font-family="monospace" font-size="14" fill="white">@SpringBootApplication</text>
+    <text x="60" y="120" font-family="monospace" font-size="14" fill="white">public class IdeaBazaarApplication {</text>
+    <text x="80" y="140" font-family="monospace" font-size="14" fill="white">public static void main(String[] args) {</text>
+    <text x="100" y="160" font-family="monospace" font-size="14" fill="white">SpringApplication.run(IdeaBazaarApplication.class, args);</text>
+    <text x="80" y="180" font-family="monospace" font-size="14" fill="white">}</text>
+    <text x="60" y="200" font-family="monospace" font-size="14" fill="white">}</text>
+  </g>
+  
+  <!-- Main title with glow -->
+  <g filter="url(#glow)">
+    <text x="400" y="83" font-family="Arial, sans-serif" font-size="52" fill="white" text-anchor="middle" font-weight="bold">Idea-Bazaar</text>
+    <text x="400" y="120" font-family="Arial, sans-serif" font-size="20" fill="#b3e5fc" text-anchor="middle" font-style="italic">Innovation Marketplace</text>
+  </g>
+  
+  <!-- Feature cards with improved alignment and adjusted widths -->
+  <!-- Card 1: Share Ideas - WIDER -->
+  <g transform="translate(200, 200)">
+    <rect x="-140" y="-60" width="280" height="120" rx="15" ry="15" fill="url(#cardGradient)" stroke="white" stroke-opacity="0.3" stroke-width="1" />
+    <circle cx="-100" cy="-25" r="25" fill="#4285f4" opacity="0.9" />
+    <text x="-100" y="-18" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="middle">💡</text>
+    <text x="-60" y="-25" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="start" font-weight="bold">Share Ideas</text>
+    <text x="-125" y="15" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="start">Upload, showcase and collaborate on</text>
+    <text x="-125" y="35" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="start">innovative project concepts</text>
+  </g>
+  
+  <!-- Card 2: Spring Boot -->
+  <g transform="translate(600, 200)">
+    <rect x="-125" y="-60" width="250" height="120" rx="15" ry="15" fill="url(#cardGradient)" stroke="white" stroke-opacity="0.3" stroke-width="1" />
+    <circle cx="-85" cy="-25" r="25" fill="#6db33f" opacity="0.9" />
+    <path d="M-85,-35 C-105,-35 -105,-15 -85,-15 C-65,-15 -65,-35 -85,-35 Z M-85,-15 L-85,-5 L-75,-15 Z" fill="white" />
+    <text x="-45" y="-25" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="start" font-weight="bold">Spring Boot</text>
+    <text x="-110" y="15" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="start">Scalable backend with robust</text>
+    <text x="-110" y="35" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="start">microservices architecture</text>
+  </g>
+  
+  <!-- Card 3: GitHub & Code - WIDER -->
+  <g transform="translate(200, 340)">
+    <rect x="-140" y="-60" width="280" height="120" rx="15" ry="15" fill="url(#cardGradient)" stroke="white" stroke-opacity="0.3" stroke-width="1" />
+    <circle cx="-100" cy="-25" r="25" fill="#333" opacity="0.9" />
+    <path d="M-100,-40 C-112,-40 -120,-32 -120,-20 C-120,-8 -112,0 -100,0 C-88,0 -80,-8 -80,-20 C-80,-32 -88,-40 -100,-40 M-100,-5 L-100,-13 C-108,-9 -110,-13 -110,-23 C-110,-27 -107,-31 -103,-33 L-102,-30 C-105,-28 -105,-25 -103,-20 C-100,-15 -97,-15 -92,-19 L-92,-22 C-107,-24 -107,-40 -100,-35 C-85,-40 -85,-18 -92,-18 L-92,-5" fill="white" />
+    <text x="-60" y="-25" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="start" font-weight="bold">GitHub Integration</text>
+    <text x="-125" y="15" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="start">Connect projects and access version</text>
+    <text x="-125" y="35" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="start">control seamlessly</text>
+  </g>
+  
+  <!-- Card 4: Payment & Google Auth -->
+  <g transform="translate(600, 340)">
+    <rect x="-125" y="-60" width="250" height="120" rx="15" ry="15" fill="url(#cardGradient)" stroke="white" stroke-opacity="0.3" stroke-width="1" />
+    <!-- Google Auth -->
+    <circle cx="-85" cy="-30" r="22" fill="#db4437" opacity="0.9" />
+    <text x="-85" y="-23" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="middle">G</text>
+    <text x="-45" y="-30" font-family="Arial, sans-serif" font-size="18" fill="white" text-anchor="start" font-weight="bold">Google Auth</text>
+    
+    <!-- Payment Gateway -->
+    <circle cx="-85" cy="20" r="22" fill="#4caf50" opacity="0.9" />
+    <text x="-85" y="27" font-family="Arial, sans-serif" font-size="18" fill="white" text-anchor="middle">$</text>
+    <text x="-45" y="25" font-family="Arial, sans-serif" font-size="18" fill="white" text-anchor="start" font-weight="bold">Payment Gateway</text>
+  </g>
+  
+  <!-- Floating elements with improved positioning and reduced size -->
+  <!-- AI Chat Bot - moved higher and made smaller -->
+  <g transform="translate(680, 60)">
+    <circle cx="0" cy="0" r="30" fill="#673ab7" opacity="0.8" />
+    <text x="0" y="5" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle" dominant-baseline="middle">🤖</text>
+    <path d="M-30,-5 L-45,-15 M30,-5 L45,-15" stroke="white" stroke-width="1.5" opacity="0.7" />
+    <text x="0" y="45" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">AI Assistant</text>
+    <text x="0" y="60" font-family="Arial, sans-serif" font-size="10" fill="#b3e5fc" text-anchor="middle">Coming Soon</text>
+  </g>
+  
+  <!-- Learning Resources Icon - moved higher and made smaller -->
+  <g transform="translate(120, 60)">
+    <circle cx="0" cy="0" r="30" fill="#fbbc05" opacity="0.8" />
+    <text x="0" y="5" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="middle" dominant-baseline="middle">📚</text>
+    <path d="M30,5 L45,15 M20,20 L35,30" stroke="white" stroke-width="1.5" opacity="0.7" />
+    <text x="0" y="45" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">Learning Hub</text>
+  </g>
+  
+  <!-- Footer banner -->
+  <rect x="0" y="420" width="800" height="30" fill="rgba(0,0,0,0.3)" />
+  <text x="400" y="440" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">Developer Community Innovation Hub</text>
+</svg>
