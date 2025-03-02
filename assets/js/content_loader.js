@@ -157,6 +157,18 @@ load_certificates()
 
 var projects_data = [
     {
+        domain: "Software Development",
+        mode: "Backend Web Service",
+        heading: "Buy, Share, and Explore Project Ideas with Idea-Bazaar.",
+        image: "/assets/images/portfolio/sde_0.png",
+        tag: ["sde", "web"],
+        name: "IDEA-BAZAAR",
+        intro: "Idea-Bazaar is a platform where users can share or buy projects, access source code, design files, and curated resources to kickstart implementation.",
+        tech_stack: ["Java", "Spring Boot", "MySQL","Auth2.0","AWS Cloud","Docker","Razorpay","Redis","Microservices"],
+        glink: "https://github.com/aditya-2703/idea_bazaar",
+        modal_img: "/assets/images/portfolio/sde_0_poster.svg"
+    },
+    {
         domain:"Web-app",
         mode:"Website",
         heading:"DSA-HUB a Web-app for real-life application of dsa with sub-projects.",
@@ -385,6 +397,8 @@ var projects_data = [
         glink:"https://github.com/aditya-2703/ANDROID_PROJECTS/tree/main/WEATHER-APP",
         modal_img:"/assets/images/portfolio/app_4_poster.jpeg"
     },
+    
+
 ]
 function load_all_projects(){
     
